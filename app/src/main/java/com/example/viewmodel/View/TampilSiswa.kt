@@ -66,4 +66,5 @@ fun TampilSiswa(
                 Divider(thickness = dimensionResource(1.dp))
             }
         }
-
+        Spacer(modifier = Modifier.height(height = dimensionResource(10.dp)))
+    
