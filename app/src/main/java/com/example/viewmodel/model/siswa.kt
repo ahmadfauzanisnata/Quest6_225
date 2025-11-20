@@ -1,11 +1,8 @@
-package com.example.viewmodel.model
+package com.example.viewmodel.model // Pastikan package-nya benar
 
-class siswa (
-    val nama: String,
-    val gender: String,
-    val alamat: String
-
+// Tambahkan kata kunci "data"
+data class Siswa(
+    val nama: String = "",
+    val gender: String = "",
+    val alamat: String = ""
 )
-
-
-
