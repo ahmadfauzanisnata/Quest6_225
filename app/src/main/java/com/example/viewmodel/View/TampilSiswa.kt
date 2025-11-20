@@ -70,4 +70,8 @@ fun TampilSiswa(
         Button(
             modifier = Modifier.fillMaxWidth(),
             onClick = onBackButtonClicked
-        ) 
+        ) {
+            Text(text = stringResource(R.string.back))
+        }
+    }
+}
