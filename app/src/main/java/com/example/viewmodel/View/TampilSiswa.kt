@@ -67,4 +67,7 @@ fun TampilSiswa(
             }
         }
         Spacer(modifier = Modifier.height(height = dimensionResource(10.dp)))
-    
+        Button(
+            modifier = Modifier.fillMaxWidth(),
+            onClick = onBackButtonClicked
+        ) 
