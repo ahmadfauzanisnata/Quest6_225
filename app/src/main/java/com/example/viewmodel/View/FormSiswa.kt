@@ -67,6 +67,7 @@ fun FormSiswa(
                 modifier = Modifier.width(250.dp).padding(top = 20.dp),
                 label = { Text(text = "Nama Lengkap") },
                 onValueChange = {
+                    val it = null
                     txtNama = it
                 }
             )
