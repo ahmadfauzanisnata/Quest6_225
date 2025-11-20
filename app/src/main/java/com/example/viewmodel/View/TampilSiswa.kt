@@ -57,4 +57,13 @@ fun TampilSiswa(
             Column(
                 modifier = Modifier.padding(all = dimensionResource(16.dp)),
                 verticalArrangement = Arrangement.spacedBy(space = dimensionResource(10.dp))
-            )
+            ) {
+                items.forEach { item ->
+                    Column(
+                        Text(text = item.first.uppercase(), fontSize = 16.sp)
+                                Text(text = item.second, fontWeight = FontWeight.Bold, fontSize = 16.sp)
+                }
+                Divider(thickness = dimensionResource(1.dp))
+            }
+        }
+
