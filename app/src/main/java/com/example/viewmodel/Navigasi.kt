@@ -55,4 +55,13 @@ fun SiswaApp(
                         navController.navigate(route = Navigasi.Detail.name)
                     }
                 )
-               
+                composable(route = Navigasi.Detail.name) {
+                    TampilSiswa(
+                        //edit 5: parameter statusUISiswa
+                        statusUISiswa = uiState.value,
+                        onBackButtonClicked = { cancelAndBackToFormulir(navController) }
+                    )
+                }
+            }
+        }
+    }
