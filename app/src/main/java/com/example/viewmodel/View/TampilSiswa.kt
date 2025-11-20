@@ -53,4 +53,8 @@ fun TampilSiswa(
         Column(
             modifier = Modifier.padding(paddingValues = isiRuang),
             verticalArrangement = Arrangement.SpaceBetween
-        )
+        ) {
+            Column(
+                modifier = Modifier.padding(all = dimensionResource(16.dp)),
+                verticalArrangement = Arrangement.spacedBy(space = dimensionResource(10.dp))
+            )
