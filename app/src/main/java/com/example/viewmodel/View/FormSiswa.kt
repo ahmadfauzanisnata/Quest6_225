@@ -125,5 +125,8 @@ fun FormSiswa(
             modifier = Modifier.fillMaxWidth(fraction = 1f),
             enabled = txtAlamat.isNotEmpty(),
             onClick = { onSubmitButtonClicked(listData) }
-        )
+        ) {
+            Text(text = stringResource(R.string.submit))
+        }
+    }
 }
