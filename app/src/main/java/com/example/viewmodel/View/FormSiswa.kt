@@ -120,3 +120,4 @@ fun FormSiswa(
             }
         )
 
+        Spacer(modifier = Modifier.height(height = 20.dp))
