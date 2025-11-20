@@ -79,3 +79,12 @@ fun FormSiswa(
                 color = Color.Blue
             )
 
+            Row(
+                pilihanJK.forEach { item ->
+                    Row(modifier = Modifier.selectable(
+                        selected = txtGender == item,
+                        onClick = {
+                            txtGender = item
+                        }
+                    ),
+                       }
